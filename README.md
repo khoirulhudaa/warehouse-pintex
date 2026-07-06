@@ -91,8 +91,6 @@ Email    : admin@warehouse.test
 Password : password
 ```
 
-Atau buat akun baru sendiri melalui halaman **Register**.
-
 ## Struktur Proyek yang Relevan
 
 ```
