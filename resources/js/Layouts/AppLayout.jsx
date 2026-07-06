@@ -135,7 +135,7 @@ export default function AppLayout({ children, title }) {
             </button>
 
             {menuOpen && (
-              <div className="absolute right-0 top-[calc(100%+8px)] w-56 overflow-hidden rounded-[14px] border border-black/5 bg-white/90 py-1.5 shadow-xl shadow-black/[0.08] backdrop-blur-xl">
+              <div className="absolute right-0 top-[calc(100%+8px)] w-56 overflow-hidden rounded-[14px] border border-black/5 bg-white py-1.5 shadow-xl shadow-black/[0.08] backdrop-blur-xl">
                 <div className="border-b border-black/5 px-4 py-3">
                   <p className="truncate text-[13px] font-semibold">{userName}</p>
                   <p className="truncate text-[11.5px] text-black/40">{userEmail}</p>
