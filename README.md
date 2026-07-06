@@ -91,7 +91,7 @@ Email    : admin@warehouse.test
 Password : password
 ```
 
-## Struktur Proyek yang Relevan
+## Struktur Proyek
 
 ```
 app/
