@@ -109,16 +109,3 @@ resources/js/
 
 routes/web.php           → Definisi seluruh route aplikasi
 ```
-
-## Catatan Teknis
-
-- Setiap pencatatan pergerakan stok (`StockMovement`) memperbarui kolom `quantity` pada tabel pivot `product_warehouse` secara **transactional** (`DB::transaction`), termasuk validasi agar stok tidak bisa menjadi negatif.
-- Menghapus sebuah pergerakan stok akan otomatis membalikkan efeknya terhadap stok gudang terkait.
-
-## Screenshot
-
-*(tambahkan screenshot dashboard, halaman produk, dan form pergerakan stok di sini)*
-
----
-
-Dibuat sebagai portofolio pribadi untuk mendemonstrasikan kemampuan fullstack development dengan Laravel & React.
