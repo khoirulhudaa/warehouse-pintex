@@ -47,7 +47,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-Project ini menggunakan **SQLite** secara default agar mudah dijalankan tanpa setup database server terpisah. Pastikan `.env` berisi:
+Project ini menggunakan **MySQL** pastikan `.env` berisi:
 
 ```
 DB_CONNECTION=mysql
