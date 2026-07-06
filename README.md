@@ -37,7 +37,7 @@ cd warehouse-app
 
 ```bash
 composer install
-npm install
+npm install or npm install --legacy-peer-deps
 ```
 
 ### 3. Setup environment
