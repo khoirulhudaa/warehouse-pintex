@@ -50,17 +50,13 @@ php artisan key:generate
 Project ini menggunakan **SQLite** secara default agar mudah dijalankan tanpa setup database server terpisah. Pastikan `.env` berisi:
 
 ```
-DB_CONNECTION=sqlite
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=warehouse_app
+DB_USERNAME=root
+DB_PASSWORD=
 ```
-
-Buat file database-nya:
-
-```bash
-touch database/database.sqlite
-```
-*(Windows CMD: `type nul > database\database.sqlite`)*
-
-> Ingin pakai MySQL? Cukup ubah `DB_CONNECTION=mysql` beserta kredensial di `.env`, lalu buat database-nya secara manual — tidak ada perubahan kode yang diperlukan karena project ini menggunakan Eloquent ORM.
 
 ### 4. Migrasi database + isi data contoh
 
