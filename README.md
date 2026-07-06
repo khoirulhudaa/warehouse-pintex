@@ -29,7 +29,7 @@ Supplier  ──┘               │
 ### 1. Clone repository
 
 ```bash
-git clone <url-repo-ini>
+git clone https://github.com/khoirulhudaa/warehouse-pintex.git
 cd warehouse-app
 ```
 
