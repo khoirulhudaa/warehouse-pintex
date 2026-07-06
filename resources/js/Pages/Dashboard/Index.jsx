@@ -8,7 +8,7 @@ export default function Dashboard({ stats, lowStock, recentMovements, warehouseB
       <Head title="Dashboard" />
 
       {/* Stat cards */}
-      <div className="mb-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="mb-8 grid gap-4 grid-cols-2 lg:grid-cols-4">
         <StatCard label="Total Produk" value={stats.total_products} accent="blue" />
         <StatCard label="Total Stok" value={stats.total_stock.toLocaleString('id-ID')} accent="indigo" />
         <StatCard label="Gudang Aktif" value={stats.total_warehouses} accent="green" />
